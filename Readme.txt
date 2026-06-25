@@ -32,5 +32,8 @@ git commit -m "mensaje de actualización"
 git commit
     Sin asignar mensaje da paso a un mensaje con cuerpo
 
+gitignore
+    Para añadir archivos o carpetas que queremos ignorar en los commits
+* usar las mismas formas que en git add
 
 **antes de hacer un git add y commit debemos teclear ctrl+s para guardar los cambios en el archivo
