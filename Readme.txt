@@ -56,6 +56,9 @@ git diff
     git diff HEAD~1..HEAD~2
         Muestra la diferencia entre los commits último y antepenúltimo
 
+git remote add origin https://github.com/hidaihuerta
+    Sube mi repositorio local al remoto
+    
 git pull origin main
     Descarga toso el proyecto y sus commits de la nube a tu computadora local
     Donde origin es el nombre del repositorio y main el nombre de la rama
