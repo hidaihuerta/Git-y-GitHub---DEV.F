@@ -40,7 +40,7 @@ git ignore
 
 git log
     Muestra todo el historial de commits
-    git log --online
+    git log --oneline
         Muestra el historial en una sóla línea, sin detalles
 
 git show
