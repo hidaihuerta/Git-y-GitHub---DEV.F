@@ -1,4 +1,6 @@
-Comandos git en orden de acción
+Curso Git y GitHub DEV.F
+
+Guía de comandos git en orden de acción
 
 git --version
     Se usa para ver la versión de git (o simplemente si está instalado)
