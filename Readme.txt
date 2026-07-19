@@ -32,8 +32,36 @@ git commit -m "mensaje de actualización"
 git commit
     Sin asignar mensaje da paso a un mensaje con cuerpo
 
-gitignore
+git ignore
     Para añadir archivos o carpetas que queremos ignorar en los commits
 * usar las mismas formas que en git add
 
 **antes de hacer un git add y commit debemos teclear ctrl+s para guardar los cambios en el archivo
+
+git log
+    Muestra todo el historial de commits
+    git log --online
+        Muestra el historial en una sóla línea, sin detalles
+
+git show
+    git show hash
+        Muestra el commit nombrado
+    git show HEAD~1
+    git show HEAD~2
+        Muestra el commit anterior al último o antepenúltimo
+    Muestra detalladamente la información del último commit o el hash especial
+
+git diff 
+    Muestra diferencias entre 2 commits
+    git diff HEAD~1..HEAD~2
+        Muestra la diferencia entre los commits último y antepenúltimo
+
+git pull origin main
+    Descarga toso el proyecto y sus commits de la nube a tu computadora local
+    Donde origin es el nombre del repositorio y main el nombre de la rama
+    
+git push origin main
+    sube el contenido local a remoto
+
+git clone <url>
+    Clona el repositorio remoto con la url
